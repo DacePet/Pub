@@ -1,7 +1,7 @@
 package com.company;
 
 import com.company.Coctails;
-//import com.company.SimpleBeverage;
+import com.company.SimpleBeverage;
 import java.util.HashMap;
 
 public class Menu {
@@ -23,12 +23,12 @@ public class Menu {
         menu.put(SimpleBeverage.Beverage.ONE_CIDER);
         menu.put(SimpleBeverage.Beverage.PROPER_CIDER);
         menu1.put(GT, new Coctails.IngredientUnit()
-                .withIngredient(Coctails.IngredientUnit.GIN)
+                .withIngredient(Coctails.IngredientUnit.GIN, 0.5)
                 .withIngredient(Coctails.IngredientUnit.TONIC_WATER)
                 .withIngredient(Coctails.IngredientUnit.GREEN_STUFF));
         menu1.put(BACARDI_SPECIAL, new Coctails.IngredientUnit()
                 .withIngredient(Coctails.IngredientUnit.GIN, 0.5)
-                .withIngredient(Coctails.IngredientUnit.RUM)
+                .withIngredient(Coctails.IngredientUnit.RUM, 0.5)
                 .withIngredient(Coctails.IngredientUnit.GRENADINE)
                 .withIngredient(Coctails.IngredientUnit.LIME_JUICE));
 
@@ -44,7 +44,7 @@ public class Menu {
 //if (amount > 2 && (drink == GT || drink == BACARDI_SPECIAL)) {
 //  throw new RuntimeException("Too many drinks, max 2.");
 
-// ALREADY USED INFO DELETED FROM INITIAL CODE
+// ALREADY USED PRICE INFO DELETED FROM INITIAL CODE
 
 //else {
 //}
