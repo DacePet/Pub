@@ -13,22 +13,3 @@ public class SimpleBeverage {
         }
         }
 }
-        //public String name;
-    //public int price;
-
-    // public SimpleBeverage() {
-    //}
-
-   // public int SimpleBeverage(String name, Integer price) {
-
-     //   this.name = name;
-       // this.price = price;
-    //}
-
-    //public static void SimpleBeverage(String[] args) {
-      //  SimpleBeverage ONE_BEER = new SimpleBeverage();
-       // SimpleBeverage ONE_CIDER = new SimpleBeverage();
-        //SimpleBeverage PROPER_CIDER = new SimpleBeverage();
-
-   // }
-//}
