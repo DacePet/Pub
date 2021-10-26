@@ -1,7 +1,7 @@
 package com.company;
 
-import com.company.Coctails;
-import com.company.SimpleBeverage;
+//import com.company.Coctails;
+//import com.company.SimpleBeverage;
 import java.util.HashMap;
 
 public class Menu {
@@ -19,9 +19,9 @@ public class Menu {
         HashMap<Coctails, Coctails.IngredientUnit> menu1 = new HashMap<>();
 
 
-        menu.put(SimpleBeverage.Beverage.ONE_BEER);
-        menu.put(SimpleBeverage.Beverage.ONE_CIDER);
-        menu.put(SimpleBeverage.Beverage.PROPER_CIDER);
+        menu.put(ONE_BEER, SimpleBeverage.Beverage.ONE_BEER);
+        menu.put(ONE_CIDER, SimpleBeverage.Beverage.ONE_CIDER);
+        menu.put(A_PROPER_CIDER, SimpleBeverage.Beverage.PROPER_CIDER);
         menu1.put(GT, new Coctails.IngredientUnit()
                 .withIngredient(Coctails.IngredientUnit.GIN, 0.5)
                 .withIngredient(Coctails.IngredientUnit.TONIC_WATER)
